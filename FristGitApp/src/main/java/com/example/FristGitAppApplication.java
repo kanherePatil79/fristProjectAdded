@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FristRepositaryProjectApplication {
+public class FristGitAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FristRepositaryProjectApplication.class, args);
+		SpringApplication.run(FristGitAppApplication.class, args);
 	}
 
 }

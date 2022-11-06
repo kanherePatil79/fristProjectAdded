@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>fristRepositaryProject</artifactId>
+	<artifactId>FristGitApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fristRepositaryProject</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
+	<name>FristGitApp</name>
+	<description>Frist Git App Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -22,6 +23,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
